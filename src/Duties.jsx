@@ -6,7 +6,6 @@ const Duties = ({ duties }) => {
     <div>
       {duties.map((duty, index) => {
         const id = uuidv4();
-
         return (
           <div key={id} className="job-desc">
             <FaAngleDoubleRight className="job-icon" />
